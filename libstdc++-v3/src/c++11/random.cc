@@ -41,6 +41,9 @@
 # define USE_DARN 1
 #endif
 
+#undef USE_RDRAND
+#undef USE_RDSEED
+
 #include <cerrno>
 #include <cstdio>
 #include <cctype> // For std::isdigit.
