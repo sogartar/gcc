@@ -76097,7 +76097,7 @@ rm -f core conftest.err conftest.$ac_objext conftest.$ac_ext
   { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_has_gthreads" >&5
 $as_echo "$ac_has_gthreads" >&6; }
 
-  if test x"$ac_has_gthreads" = x"yes"; then
+  if true; then
 
 $as_echo "#define _GLIBCXX_HAS_GTHREADS 1" >>confdefs.h
 
